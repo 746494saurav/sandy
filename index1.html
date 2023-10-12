@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function show(){
+        window.document.images[0].scr="a1.jpg";
+        window.document.forms[0].elements[0].value="Register";
+        window.document.forms[0].elements[2].value="Register";
+        window.document.forms[1].elements[1].value="Login";
+      
+
+    }
+</script>
+<body onload="show()">
+    <div>
+        <img width="100" src="a1.jpg" height="100" border="1">
+    </div>
+    <div>
+        <form >
+            <h2>Register</h2>
+            <input type="button">
+            <input type="text"><br><br>
+            <input type="button">
+            <input type="text"><br><br>
+            Name:<input type="text">
+        </form>
+
+    </div>
+    <div>
+        <form>
+            <h1>Login</h1>
+            <input type="text">
+            <input type="button">
+        </form>
+    </div>
+    
+</body>
+</html>
